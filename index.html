@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Personal Website</title>
 </head>
 <body>
     <nav>
-        <a href="">Contact</a>
-        <a href="">Portfolio</a>
+        <a class="about-nav" href="">About</a>
         <a href="">Work</a>
-        <a href="">About</a>
+        <a href="">Portfolio</a>
+        <a href="">Contact</a>
     </nav>
     <section class="first-section">
         <div class="half-width self-intro">
@@ -30,11 +30,13 @@
         <div class="half-width">
             <img src="images/personal-pic2.png" alt="">
         </div>
-        <div class="half-width about">
-            <h2 class="header-color">About</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <a target="_blank" href="https://www.linkedin.com/in/saiful-islam-16a3941a5/">
-                <img id="download-icon" src="images/icons/Download-512.webp" alt=""> Download CV</a>
+        <div class="half-width">
+            <div class="about">
+                <h2 class="header-color">About</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <a target="_blank" href="https://www.linkedin.com/in/saiful-islam-16a3941a5/">
+                    <img id="download-icon" src="images/icons/Download-512.webp" alt=""> Download CV</a>
+            </div>
         </div>
     </section>
     <section class="latest-works">
@@ -58,7 +60,7 @@
         </div>
     </section>
     <section class="from-area">
-        <h2>CONTENT ME</h2>
+        <h2>CONTACT ME</h2>
         <form>
             <label for="fname">First Name</label>
             <input id="fname" type="text" placeholder="First Name">
