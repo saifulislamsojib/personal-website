@@ -4,10 +4,9 @@ body{
 nav{
     display: flex;
     justify-content:flex-end;
-    width: 85%;
-    margin: 30px 0;
-    margin-bottom: 50px;
-    font-weight: 600;
+    width: 80%;
+    margin-top: 30px;
+    font-weight: 500;
 }
 nav a{
     float: left;
@@ -17,7 +16,7 @@ nav a{
     margin-left: 55px;
 }
 h1{
-    font-size: 75px;
+    font-size: 70px;
     line-height: 30px;
 }
 h2{
@@ -45,20 +44,15 @@ section{
 .first-section, .second-section{
     width:80%;
     margin:0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .half-width{
-    width: 50%;
-    float: left;
+    width: 48%;
 }
 .half-width img{
     width:100%;
-}
-.self-intro{
-    margin-top: 100px;
-}
-.about{
-    margin-top: 120px;
-    padding-left: 20px;
 }
 #download-icon{
     width: 30px;
@@ -67,15 +61,21 @@ section{
     text-decoration:none;
     color: white;
     background-image: linear-gradient(45deg, lightsalmon,#fb3613);
-    padding: 20px 40px;
+    padding: 15px 30px;
     border-radius: 7px;
     font-weight: 700;
     font-size:20px;
     display: inline-block;
     margin-top: 10px;
 }
+.second-section a{
+    display: flex;
+    align-items: center;  
+    justify-content:space-between;
+    width:160px;
+}
 .latest-works{
-    margin-top: 55px;
+    margin-top: 20px;
     padding-top: 10px;
     background-color: rgb(246, 252, 255);
     height: 800px;
@@ -86,7 +86,7 @@ section{
 #highlight-color{
     color:red;
 }
-.work-project{
+.work-project{ 
     width:80%;
     margin:0 auto;
 }
@@ -126,7 +126,7 @@ section{
 .work-inquiry button{
     border: none;
     background-color: tomato;
-    padding:28px 35px;
+    padding:25px 30px;
     color: #fff;
     font-size:25px;
     border-radius:15px;
